@@ -9,17 +9,17 @@
 
 Rm = 8.4;
 kt = 0.042;
-km = 0.042;
+km = 0.042;     %rad/s
 Jm = 0.000004;
-Lm = 1.16;
+Lm = 1.16*10^(-3);      
 Mh = 0.0106;
-Rh = 0.111;
+Rh = 0.0111;
 Md = 0.053;
 Rd = 0.0248;
 
-Jeq = Jm + 0.5*Mh*Rh^2 + 0.5*Md*Rd^2;
+Jeq = Jm + 0.5*Mh*Rh^(2) + 0.5*Md*Rd^(2);
  
-num = kt;
+num = kt/(Jeq*Rm);
 dem = [Jeq*Rm kt*km 0];
 
 dem = dem./(Jeq*Rm);
