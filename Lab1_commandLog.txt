@@ -561,4 +561,7 @@ Wcp =
 
     0.0171
 
->> 
+
+
+
+<<MISSING command log from session 2>> - see if possible to add
