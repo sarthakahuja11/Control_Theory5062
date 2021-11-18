@@ -47,5 +47,18 @@ l2 = kb*l;
 l3 = ka*l;
 l4 = kb*l;
 
+%T = 0.01;
+T = 0.04;
+
+
+kd = 2.2;      %check alter ?
+
+p_zoh = c2d(p,T,'zoh');
+
+d_z = c2d(d, T, 'zoh');
+
+[num, den] = tfdata(d_z);   %Check alter?
+
+dd = tf(num, den , T);
 
 
