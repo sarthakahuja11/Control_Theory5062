@@ -39,11 +39,13 @@ d = tf(num1,dem1);
 c = k*d ;
 
 l = c*p ;
+
 ka = 0.2;
 kb = 2.2;
 l1 = ka*l;
 l2 = kb*l;
 l3 = ka*l;
 l4 = kb*l;
+
 
 
