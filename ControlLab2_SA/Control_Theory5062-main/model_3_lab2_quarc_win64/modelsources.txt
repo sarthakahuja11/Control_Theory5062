@@ -1,2 +1,0 @@
-  model_3_lab2.c
-

@@ -1,7 +1,0 @@
-template_hardware.obj
-rtGetInf.obj
-rtGetNaN.obj
-rt_nonfinite.obj
-template_hardware_data.obj
-template_hardware_main.obj
-rt_sim.obj
